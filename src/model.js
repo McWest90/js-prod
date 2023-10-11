@@ -2,7 +2,6 @@ import image from './assets/image.jpeg'
 import {TextBlock, TitleBlock, ImageBlock, ColumnsBlock} from './classes/blocks'
 
 const text = `pure JS site without any frameworks with UI`
-const text1 = `rklhsdjghflvjksdblkjvcgb`
 
 export const model =[
     new TitleBlock('pure JS site', {
@@ -37,6 +36,7 @@ export const model =[
             background: 'linear-gradient(to bottom, #8e2de2, #4a00e0)',
             padding: '2rem',
             color: '#fff',
+            'text-align': 'center',
             'font-weight': 'bold'
                 }
     }),
