@@ -1,4 +1,4 @@
-import image from './assets/image.png'
+import image from './assets/image.jpeg'
 import {TextBlock, TitleBlock, ImageBlock, ColumnsBlock} from './classes/blocks'
 
 const text = `pure JS site without any frameworks with UI`
