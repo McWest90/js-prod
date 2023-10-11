@@ -1,10 +1,11 @@
 import image from './assets/image.png'
-import {Block} from './classes/blocks'
+import {TextBlock, TitleBlock, ImageBlock, ColumnsBlock} from './classes/blocks'
 
 const text = `pure JS site without any frameworks with UI`
+const text1 = `rklhsdjghflvjksdblkjvcgb`
 
 export const model =[
-    new Block('title', 'pure JS site', {
+    new TitleBlock('pure JS site', {
         tag : 'h2',
         styles: {
             background: 'linear-gradient(to right, #ff0099, #493240)',
@@ -14,7 +15,7 @@ export const model =[
         }
     }),
 
-   new Block('image', image,{
+   new ImageBlock(image, {
         styles: {
             padding: '2rem 0',
             display: 'flex',
@@ -27,7 +28,7 @@ export const model =[
         alt: 'its image'
     }),
 
-   new Block('columns', [
+   new ColumnsBlock( [
     'pure JS without any frameworks',
     'pure JS Solid OOP',
     'pure JS - any UI with your hands'], 
@@ -39,7 +40,7 @@ export const model =[
             'font-weight': 'bold'
                 }
     }),
-   new Block('text', text, {
+   new TextBlock(text, {
         tag: 'p',
         styles: {
             background: 'linear-gradient(to left, #f2994a, #f2c94c)',
@@ -47,6 +48,8 @@ export const model =[
             'text-align': 'center',
             'font-weight': 'bold'
                 }
-    }),
+    })
+
+    
     
 ]
