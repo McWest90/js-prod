@@ -1,0 +1,22 @@
+{
+  "name": "js-prod",
+  "version": "1.0.0",
+  "description": "javascript pure app",
+  "main": "index.js",
+  "scripts": {
+    "app": "parcel ./src/index.html -p 4200 --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McWest90/js-prod.git"
+  },
+  "author": "Mcwest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McWest90/js-prod/issues"
+  },
+  "homepage": "https://github.com/McWest90/js-prod#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
